@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const MenuBar = () => {
     return (
          <div>
-            <div className="bg-[#ED7801] absolute lg:left-0 top-36 w-full h-24 rounded-bl-xl rounded-br-xl">
+            <div className="bg-[#ED7801] absolute top-36 w-full h-24 rounded-bl-xl rounded-br-xl">
                 <div className="flex justify-center items-center ">
                 <ul className="flex my-3 text-start">
                     <li className="mr-10">

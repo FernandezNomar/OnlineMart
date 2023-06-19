@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Productcard = ({products = []}) => {
     return (
         <section className="text-gray-600 body-font ml-9">
-        <div className="container px-5 py-24 mx-auto my-52">
+        <div className="container px-5 py-24 mx-auto mt-52">
           <div className="flex flex-wrap -m-4">
             {
               products.map((product) => {

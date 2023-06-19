@@ -2,6 +2,7 @@ import Sidebar from "../components/sideBar";
 import MenuBar from "../components/menuBar";
 import Productcard from "../components/productcard";
 import React, { useEffect, useState } from 'react'
+import Footer from "../components/footer";
 
 function Home() {
   const [products, setProducts] = useState([])
@@ -25,6 +26,7 @@ return (
         :
         <div>Loading.....</div>
       }
+    <Footer />
       </div>
  
   );
