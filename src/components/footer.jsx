@@ -18,8 +18,8 @@ const Footer = () => {
           <div className="w-1/3 px-6">
             <h2 className="title-font text-[#FF7800] tracking-widest text-sm mb-3 font-black uppercase">categorias</h2>
             <nav className="list-none mb-10">
-            <p className="mt-2 text-sm text-gray-500">La idea de Online surgió producto de una visión 
-            inteligente de que el mundo de los videojuegos iba a tener una gran importancia y crecimiento en nuestro país.
+            <p className="mt-2 text-sm text-gray-500">La idea de Online Mart surgió producto de una visión 
+            inteligente de que el mundo de las tiendas online iba a tener una gran importancia y crecimiento en nuestro país.
             Así nacemos en 1999 abriendo al público nuestra primera sucursal</p>
             </nav>
           </div>

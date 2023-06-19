@@ -8,7 +8,7 @@ const Sidebar = () => {
     return ( 
 
 <div>
-   <div className="bg-[#FFFFFF] absolute lg:left-0 top-0 w-full h-24 rounded-bl-xl rounded-br-xl">
+   <div className="bg-[#FFFFFF] absolute top-0 w-full h-24 rounded-bl-xl rounded-br-xl">
     <div className="flex justify-center items-center ">
     <ul className="flex my-3 text-start">
         <li className="mr-80 flex items-center">
