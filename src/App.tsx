@@ -1,10 +1,12 @@
 import React from "react";
+import Layout from "./views/Layout";
+import { setCommentRange } from "typescript";
 
 function App() {
 
 return (
-    <div className="bg-red-400">
-    hola
+    <div>
+<Layout />
     </div>
  
   );
