@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "react-bootstrap/Navbar";
 import { Link } from 'react-router-dom';
 
 const Productcard = ({products = []}) => {
@@ -10,7 +9,7 @@ const Productcard = ({products = []}) => {
           <div className="flex flex-wrap -m-4">
             {
               products.map((product) => {
-    
+                console.log(product, 'product')
                 const { id, title, price, description, category, image } = product;
                 return (
                   <Link to={`/products/${id}`} className="lg:w-[23%] md:w-1/2 p-4 w-96 mb-4 cursor-pointer rounded-lg shadow ml-4">

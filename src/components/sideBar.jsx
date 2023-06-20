@@ -5,6 +5,24 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import logoOnlyMarket from "../assets/images/marca/logoOnlyMarket.png";
 import { Link } from 'react-router-dom';
 const Sidebar = () => {
+    const navigations = [
+        {
+          name: 'Home',
+          path: '/'
+        },
+        {
+          name: 'Products',
+          path: '/products'
+        },
+        {
+          name: 'About',
+          path: '/about'
+        },
+        {
+          name: 'Contact',
+          path: '/contact'
+        }
+      ]
     return ( 
 
 <div>
@@ -26,11 +44,11 @@ const Sidebar = () => {
             <h1>Horario <FiClock className= "text-1xl inline-block text-gray-400"/> | 9AM -- 9PM |</h1>
          </li>
         <li className="mr-5 flex items-center">
-        <a href="#" className=" text-[#FF7800] relative mr-3">
-             <AiOutlineShoppingCart className='text-4xl'/></a>  
+        <Link to={'/cart'} className=" text-[#FF7800] relative mr-3">
+             <AiOutlineShoppingCart className='text-4xl'/></Link>  
          </li>
           <li className="mr-5 block items-center my-11">
-        <h1 className="text-left text-[#1f6f20] font-medium block">$0.00</h1>
+        <h1 className="text-left text-[#1f6f20] font-medium block">Click al carrito</h1>
        <h1 className="text-right text-[#FF7800] block ">Carrito de compras</h1>
          </li>
     </ul>

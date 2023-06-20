@@ -11,7 +11,7 @@ const MenuBar = () => {
                 <ul className="flex my-3 text-start">
                     <li className="mr-10">
                     <h1 className="text-2xl font-black uppercase text-[#59291C] block ">Nuestras</h1>
-                         <Link to="/categorias" className="hover:text-[#762823] text-4xl font-black uppercase text-[#FFFFFF] relative">Categorias</Link>
+                         <Link to="/products" className="hover:text-[#762823] text-4xl font-black uppercase text-[#FFFFFF] relative">Categorias</Link>
                     </li>
                     <li className="mr-10">
                     <h1 className="text-2xl font-black uppercase text-[#59291C] block">Ofertas y</h1>
